@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>dev.or2</groupId>
+  <artifactId>central-all</artifactId>
+  <versioning>
+    <latest>flux-1.3</latest>
+    <release>flux-1.3</release>
+    <versions>
+      <version>flux-1.3</version>
+    </versions>
+    <lastUpdated>20260603083859</lastUpdated>
+  </versioning>
+</metadata>

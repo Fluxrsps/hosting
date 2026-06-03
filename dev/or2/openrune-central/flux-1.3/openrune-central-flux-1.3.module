@@ -1,0 +1,217 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "openrune-central",
+    "version": "flux-1.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrune-central-flux-1.3.jar",
+          "url": "openrune-central-flux-1.3.jar",
+          "size": 346255,
+          "sha512": "40e28d5f7404d3324b206f0d846720e07bbdefe00d569a32496d57e531d6e6164b79169f852e2b6a9aa0d1fea2f4273aab85a8a08e9fa5ecba17b04488dededb",
+          "sha256": "bb9a2806e958089253084fce9a3cdd2741e5a1a1ca7339241fc1d8de9985f155",
+          "sha1": "c9858282e8b0f3002fada2321189ba1ad7b8a0ce",
+          "md5": "90d5044253258f24bfcbee97ec8157d3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.or2",
+          "module": "central-common",
+          "version": {
+            "requires": "flux-1.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-bom",
+          "version": {
+            "requires": "3.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-netty"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-content-negotiation"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-status-pages"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-forwarded-header"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-config-yaml"
+        },
+        {
+          "group": "com.zaxxer",
+          "module": "HikariCP",
+          "version": {
+            "requires": "6.2.1"
+          }
+        },
+        {
+          "group": "org.postgresql",
+          "module": "postgresql",
+          "version": {
+            "requires": "42.7.7"
+          }
+        },
+        {
+          "group": "io.zonky.test",
+          "module": "embedded-postgres",
+          "version": {
+            "requires": "2.2.2"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.5.16"
+          }
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "2.3"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-handler",
+          "version": {
+            "requires": "4.1.118.Final"
+          }
+        },
+        {
+          "group": "de.mkammerer",
+          "module": "argon2-jvm",
+          "version": {
+            "requires": "2.12"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrune-central-flux-1.3.jar",
+          "url": "openrune-central-flux-1.3.jar",
+          "size": 346255,
+          "sha512": "40e28d5f7404d3324b206f0d846720e07bbdefe00d569a32496d57e531d6e6164b79169f852e2b6a9aa0d1fea2f4273aab85a8a08e9fa5ecba17b04488dededb",
+          "sha256": "bb9a2806e958089253084fce9a3cdd2741e5a1a1ca7339241fc1d8de9985f155",
+          "sha1": "c9858282e8b0f3002fada2321189ba1ad7b8a0ce",
+          "md5": "90d5044253258f24bfcbee97ec8157d3"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openrune-central-flux-1.3-all.jar",
+          "url": "openrune-central-flux-1.3-all.jar",
+          "size": 101347356,
+          "sha512": "cd308a35ebe93f1b136629ee998709159f793c38f0fd0cce47f7e7b5de17b8e3357ce21f148d2b75129f5f6b88e1a8e69746a114e626c941b6e52aea5ef9926c",
+          "sha256": "3d7b6d6c5ff6f675021e334d43a7a345bb7178299299b7a032eb26b4abbdce74",
+          "sha1": "d67306e4c184a4e6787d2199e84be51bfc77b3bc",
+          "md5": "7ad2dd39d8623ea4d6042b716969c0f2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openrune-central-flux-1.3-sources.jar",
+          "url": "openrune-central-flux-1.3-sources.jar",
+          "size": 71381,
+          "sha512": "8c71df65b96027fc27520fb0988ce1f34acb950d35ec25d16bf72ca75197c0943752f0fd31ad85af61903dc3873abb92ad3bfe3feed87e166bcf40a42e343180",
+          "sha256": "59d8b72f455413b195b249aa4865e505041dcdeb0b2bf3bf09aab67688e8649f",
+          "sha1": "265d3e7dd23e44b4ccd1a768aa47e77e136be078",
+          "md5": "9fa53a9752e6a0bad62f82c56e2d74a2"
+        }
+      ]
+    }
+  ]
+}
