@@ -1,18 +1,9 @@
 {
-  "launcherArguments": [
-    "-XX:+DisableAttachMechanism",
-    "-Drunelite.launcher.nojvm\u003dtrue",
-    "-Xmx812m",
-    "-Xss2m",
-    "-XX:CompileThreshold\u003d1500",
-    "-Xincgc",
-    "-XX:+UseConcMarkSweepGC",
-    "-XX:+UseParNewGC"
-  ],
+  "launcherArguments": [],
   "launcherJvm11Arguments": [
     "-XX:+DisableAttachMechanism",
     "-Drunelite.launcher.nojvm\u003dtrue",
-    "-Xmx812m",
+    "-Xmx768m",
     "-Xss2m",
     "-XX:CompileThreshold\u003d1500"
   ],
@@ -20,21 +11,21 @@
     "-XX:+DisableAttachMechanism",
     "-Drunelite.launcher.nojvm\u003dtrue",
     "-Drunelite.launcher.blacklistedDlls\u003dRTSSHooks.dll,RTSSHooks64.dll,NahimicOSD.dll,NahimicMSIOSD.dll,Nahimic2OSD.dll,Nahimic2DevProps.dll,k_fps32.dll,k_fps64.dll,SS2DevProps.dll,SS2OSD.dll,GTIII-OSD64-GL.dll,GTIII-OSD64-VK.dll,GTIII-OSD64.dll",
-    "-Xmx812m",
+    "-Xmx768m",
     "-Xss2m",
     "-XX:CompileThreshold\u003d1500"
   ],
   "launcherJvm17Arguments": [
     "-XX:+DisableAttachMechanism",
     "-Drunelite.launcher.nojvm\u003dtrue",
-    "-Xmx512m",
+    "-Xmx768m",
     "-Xss2m",
     "-XX:CompileThreshold\u003d1500"
   ],
   "launcherJvm17MacArguments": [
     "-XX:+DisableAttachMechanism",
     "-Drunelite.launcher.nojvm\u003dtrue",
-    "-Xmx812m",
+    "-Xmx768m",
     "-Xss2m",
     "-XX:CompileThreshold\u003d1500",
     "--add-opens\u003djava.desktop/com.apple.eawt\u003dALL-UNNAMED"
@@ -43,57 +34,53 @@
     "-XX:+DisableAttachMechanism",
     "-Drunelite.launcher.nojvm\u003dtrue",
     "-Drunelite.launcher.blacklistedDlls\u003dRTSSHooks.dll,RTSSHooks64.dll,NahimicOSD.dll,NahimicMSIOSD.dll,Nahimic2OSD.dll,Nahimic2DevProps.dll,k_fps32.dll,k_fps64.dll,SS2DevProps.dll,SS2OSD.dll,GTIII-OSD64-GL.dll,GTIII-OSD64-VK.dll,GTIII-OSD64.dll",
-    "-Xmx812m",
+    "-Xmx768m",
     "-Xss2m",
     "-XX:CompileThreshold\u003d1500"
   ],
-  "clientJvmArguments": [
-    "-XX:+DisableAttachMechanism",
-    "-Xmx812m",
-    "-Xss2m",
-    "-XX:CompileThreshold\u003d1500",
-    "-Xincgc",
-    "-XX:+UseConcMarkSweepGC",
-    "-XX:+UseParNewGC"
-  ],
+  "clientJvmArguments": [],
   "clientJvm9Arguments": [
     "-XX:+DisableAttachMechanism",
     "-Drunelite.launcher.blacklistedDlls\u003dRTSSHooks.dll,RTSSHooks64.dll,NahimicOSD.dll,NahimicMSIOSD.dll,Nahimic2OSD.dll,Nahimic2DevProps.dll,k_fps32.dll,k_fps64.dll,SS2DevProps.dll,SS2OSD.dll,GTIII-OSD64-GL.dll,GTIII-OSD64-VK.dll,GTIII-OSD64.dll",
-    "-Xmx812m",
+    "-Xmx768m",
     "-Xss2m",
     "-XX:CompileThreshold\u003d1500"
   ],
   "clientJvm17MacArguments": [
     "-XX:+DisableAttachMechanism",
-    "-Xmx812m",
+    "-Xmx768m",
     "-Xss2m",
     "-XX:CompileThreshold\u003d1500",
+    "--add-opens\u003djava.base/java.net\u003dALL-UNNAMED",
+    "--add-opens\u003djava.base/java.io\u003dALL-UNNAMED",
     "--add-opens\u003djava.desktop/com.apple.eawt\u003dALL-UNNAMED"
   ],
   "clientJvm17Arguments": [
     "-XX:+DisableAttachMechanism",
-    "-Xmx812m",
+    "-Xmx768m",
     "-Xss2m",
-    "-XX:CompileThreshold\u003d1500"
+    "-XX:CompileThreshold\u003d1500",
+    "--add-opens\u003djava.base/java.net\u003dALL-UNNAMED",
+    "--add-opens\u003djava.base/java.io\u003dALL-UNNAMED"
   ],
   "artifacts": [
     {
-      "hash": "5889db19487ac13527eed21acbc53251baa8bfea8d6a5bcd8f3717e8441ae5e9",
+      "hash": "feadb49004f64593fc75d9117cb6c62103bcc3f225e1dbd729b6723283308195",
       "name": "runelite-client.jar",
       "path": "https://github.com/Fluxrsps/hosting/raw/main/client/live/repo/runelite-client.jar",
-      "size": 4985803
+      "size": 5261850
     },
     {
-      "hash": "d252fd5f0153f89ef5c7e884b32c6c54b7de49695e997bc8021839e378e91fa8",
+      "hash": "9152aa855146b1d0bb801a2e171d0e89108dfc52802855712bf0ff31301707b2",
       "name": "runelite-api.jar",
       "path": "https://github.com/Fluxrsps/hosting/raw/main/client/live/repo/runelite-api.jar",
-      "size": 5179048
+      "size": 5179635
     },
     {
-      "hash": "3bcdde32641692eadb4fadc5b46712d3086e53fc0c2be2e2b4df7c3ccc4b02a7",
+      "hash": "76a4013a328d65cb750dc3d049e60094a197fefe0d40271525599535240bc55e",
       "name": "osrs-client.jar",
       "path": "https://github.com/Fluxrsps/hosting/raw/main/client/live/repo/osrs-client.jar",
-      "size": 2530165
+      "size": 5099565
     },
     {
       "hash": "1b2751256aaa1ed96a80e6f89dac8a19bead1730335c95ecba9c8486760afa18",
@@ -142,6 +129,12 @@
       "name": "guava-23.2-jre.jar",
       "path": "https://repo.maven.apache.org/maven2/com/google/guava/guava/23.2-jre/guava-23.2-jre.jar",
       "size": 2649860
+    },
+    {
+      "hash": "9b9df27a5b8c7864112b4137fd92b36c3f1395bfe57be42fedf2f520ead1a93e",
+      "name": "guice-4.1.0.jar",
+      "path": "https://repo.maven.apache.org/maven2/com/google/inject/guice/4.1.0/guice-4.1.0.jar",
+      "size": 674028
     },
     {
       "hash": "9264c6931c431e928dc64adc842584d5f57d17b2f3aff29221f2b3fdea673dad",
@@ -380,9 +373,9 @@
   ],
   "updates": [],
   "dependencyHashes": {
-    "runelite-client.jar": "5889db19487ac13527eed21acbc53251baa8bfea8d6a5bcd8f3717e8441ae5e9",
-    "runelite-api.jar": "d252fd5f0153f89ef5c7e884b32c6c54b7de49695e997bc8021839e378e91fa8",
-    "osrs-client.jar": "3bcdde32641692eadb4fadc5b46712d3086e53fc0c2be2e2b4df7c3ccc4b02a7",
+    "runelite-client.jar": "feadb49004f64593fc75d9117cb6c62103bcc3f225e1dbd729b6723283308195",
+    "runelite-api.jar": "9152aa855146b1d0bb801a2e171d0e89108dfc52802855712bf0ff31301707b2",
+    "osrs-client.jar": "76a4013a328d65cb750dc3d049e60094a197fefe0d40271525599535240bc55e",
     "http-api-1.2.22.jar": "1b2751256aaa1ed96a80e6f89dac8a19bead1730335c95ecba9c8486760afa18",
     "discord-1.4.jar": "6409723fd13496386dfb1335a9794dc0919db6132522f2b7486d6734fc5df6e5",
     "rlawt-1.8.jar": "24f9b6d77d8de814a8dacddf9c4e2227da70459375ca72cc961ae81d33eff75a",
@@ -391,6 +384,7 @@
     "slf4j-api-1.7.36.jar": "d3ef575e3e4979678dc01bf1dcce51021493b4d11fb7f1be8ad982877c16a1c0",
     "jopt-simple-5.0.1.jar": "9f0c8d50fa4b79b6ff1502dbec8502179d6b9497cacbe17a13074001aed537ec",
     "guava-23.2-jre.jar": "5be9a7d05ba0ccd74708bc8018ae412255f85843c0b92302e9b9befa6ed52564",
+    "guice-4.1.0.jar": "9b9df27a5b8c7864112b4137fd92b36c3f1395bfe57be42fedf2f520ead1a93e",
     "guice-4.1.0-no_aop.jar": "9264c6931c431e928dc64adc842584d5f57d17b2f3aff29221f2b3fdea673dad",
     "gson-2.8.5.jar": "233a0149fc365c9f6edbd683cfe266b19bdc773be98eabdaf6b3c924b48e7d81",
     "flatlaf-extras-3.2.5-rl4.jar": "8ed1c0ecc09bdaf7224e3750bf3fa29266295f902d3ceeaa1380b26c888b761f",
