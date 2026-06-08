@@ -3,12 +3,13 @@
   <groupId>dev.or2</groupId>
   <artifactId>central-common</artifactId>
   <versioning>
-    <latest>flux-1.4</latest>
-    <release>flux-1.4</release>
+    <latest>flux-1.4.2</latest>
+    <release>flux-1.4.2</release>
     <versions>
       <version>flux-1.3</version>
       <version>flux-1.4</version>
+      <version>flux-1.4.2</version>
     </versions>
-    <lastUpdated>20260608181758</lastUpdated>
+    <lastUpdated>20260608221016</lastUpdated>
   </versioning>
 </metadata>
