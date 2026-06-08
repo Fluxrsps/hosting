@@ -1,0 +1,204 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "central-server",
+    "version": "flux-1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "central-server-flux-1.4.jar",
+          "url": "central-server-flux-1.4.jar",
+          "size": 421277,
+          "sha512": "ef75ff2d7be21940bad5844cb99edeb94e31fe7eaa3bb7117d9a524c0d3a45f87dffa913dea2f35afdcf93bb238e7b342a1a10c7536e4e6e20502aed2193456e",
+          "sha256": "cd8ae18013887f232ebfdd286b8ae30b1c08ad867cb0f8d39d0630ec39fab7c1",
+          "sha1": "b939defa5b87cd799fb70a3fb0ef441438a5161e",
+          "md5": "967a4beaec839ec479d2690e63cb9bfa"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.or2",
+          "module": "central-common",
+          "version": {
+            "requires": "flux-1.4"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-bom",
+          "version": {
+            "requires": "3.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-netty"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-content-negotiation"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-status-pages"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-forwarded-header"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-config-yaml"
+        },
+        {
+          "group": "com.zaxxer",
+          "module": "HikariCP",
+          "version": {
+            "requires": "6.2.1"
+          }
+        },
+        {
+          "group": "org.postgresql",
+          "module": "postgresql",
+          "version": {
+            "requires": "42.7.7"
+          }
+        },
+        {
+          "group": "io.zonky.test",
+          "module": "embedded-postgres",
+          "version": {
+            "requires": "2.2.2"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.5.16"
+          }
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "2.3"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-handler",
+          "version": {
+            "requires": "4.1.118.Final"
+          }
+        },
+        {
+          "group": "de.mkammerer",
+          "module": "argon2-jvm",
+          "version": {
+            "requires": "2.12"
+          }
+        },
+        {
+          "group": "net.dv8tion",
+          "module": "JDA",
+          "version": {
+            "requires": "5.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "central-server-flux-1.4.jar",
+          "url": "central-server-flux-1.4.jar",
+          "size": 421277,
+          "sha512": "ef75ff2d7be21940bad5844cb99edeb94e31fe7eaa3bb7117d9a524c0d3a45f87dffa913dea2f35afdcf93bb238e7b342a1a10c7536e4e6e20502aed2193456e",
+          "sha256": "cd8ae18013887f232ebfdd286b8ae30b1c08ad867cb0f8d39d0630ec39fab7c1",
+          "sha1": "b939defa5b87cd799fb70a3fb0ef441438a5161e",
+          "md5": "967a4beaec839ec479d2690e63cb9bfa"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "central-server-flux-1.4-sources.jar",
+          "url": "central-server-flux-1.4-sources.jar",
+          "size": 86358,
+          "sha512": "9536d44999bc01789a309ff785f1b4c6e11f13cbfed01b0ccf9a88b2b9581e69798e558e394bf3f0b5d052546bf6da5a8234eea9609e1815d0b1ef271a800fad",
+          "sha256": "06857684b14997f4b099c83f1d6f6996c38c46ae00e937260eee63aad1c8188d",
+          "sha1": "92f2349ecf51d9aeefe6c67fc5187d4e5555b806",
+          "md5": "6b0f593b18b9b0e7c8fe5c27f36d612c"
+        }
+      ]
+    }
+  ]
+}
