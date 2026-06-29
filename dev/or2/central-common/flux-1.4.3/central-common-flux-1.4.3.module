@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "central-common",
+    "version": "flux-1.4.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "central-common-flux-1.4.3.jar",
+          "url": "central-common-flux-1.4.3.jar",
+          "size": 233081,
+          "sha512": "330d27c616b3bc6a8b18fd1cefc118fd2773829583461579982648157af39aecf13907b1ff35f531f68e78edb4a0fe89ef27f13f122977b0f0a3b39b7beb8e40",
+          "sha256": "4ff112795d4f0b259c34972b5dacbe7767d576cf118f2e2db23941a01a51be10",
+          "sha1": "70754e5acc63d3f27b4cd864c2dacf70883e76bc",
+          "md5": "24932826c6045090852649b135f0a08b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "central-common-flux-1.4.3.jar",
+          "url": "central-common-flux-1.4.3.jar",
+          "size": 233081,
+          "sha512": "330d27c616b3bc6a8b18fd1cefc118fd2773829583461579982648157af39aecf13907b1ff35f531f68e78edb4a0fe89ef27f13f122977b0f0a3b39b7beb8e40",
+          "sha256": "4ff112795d4f0b259c34972b5dacbe7767d576cf118f2e2db23941a01a51be10",
+          "sha1": "70754e5acc63d3f27b4cd864c2dacf70883e76bc",
+          "md5": "24932826c6045090852649b135f0a08b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "central-common-flux-1.4.3-sources.jar",
+          "url": "central-common-flux-1.4.3-sources.jar",
+          "size": 61130,
+          "sha512": "663b83c82cac460c6bcf8bae2b4d90d663a0633bb466c550007f7a6f5c3bf5ed9d52e47e91c5db663410ddd2f39af83b0d52b00abb196b064a38743b59a2d17f",
+          "sha256": "7049b11ac2f015bfe7b8d0346700eacf135a672551cef41d54cdc475c2ed03c9",
+          "sha1": "dd4acc3d36f4bdec44e86ea4e9843287e69f69f9",
+          "md5": "87cf864ae3b54cd8aa5a50ec329f8f74"
+        }
+      ]
+    }
+  ]
+}
