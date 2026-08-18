@@ -1,0 +1,165 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "central-common",
+    "version": "flux-3.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-core",
+          "version": {
+            "requires": "11.3.1"
+          }
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-database-postgresql",
+          "version": {
+            "requires": "11.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "central-common-flux-3.0.0.jar",
+          "url": "central-common-flux-3.0.0.jar",
+          "size": 281440,
+          "sha512": "9cbce26da7a62b9a54fff27fb330a4a3a49b6200d4fd0445f1d9fa06f475dba2ffc97bb06858375f1711052480c6463d8a571281a48e812558e97cf62dfa8152",
+          "sha256": "b66dfa1b165cdd06f32eb730fa19a9d39b08f7a97fac42c062425a988583dca8",
+          "sha1": "5782bbf1f13f6967157d1f7c9c3a4c7965a02d2f",
+          "md5": "559de7fcb7a7b8d63c29d7c8bef4da12"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "de.mkammerer",
+          "module": "argon2-jvm",
+          "version": {
+            "requires": "2.12"
+          }
+        },
+        {
+          "group": "at.favre.lib",
+          "module": "bcrypt",
+          "version": {
+            "requires": "0.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.postgresql",
+          "module": "postgresql",
+          "version": {
+            "requires": "42.7.7"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-core",
+          "version": {
+            "requires": "11.3.1"
+          }
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-database-postgresql",
+          "version": {
+            "requires": "11.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "central-common-flux-3.0.0.jar",
+          "url": "central-common-flux-3.0.0.jar",
+          "size": 281440,
+          "sha512": "9cbce26da7a62b9a54fff27fb330a4a3a49b6200d4fd0445f1d9fa06f475dba2ffc97bb06858375f1711052480c6463d8a571281a48e812558e97cf62dfa8152",
+          "sha256": "b66dfa1b165cdd06f32eb730fa19a9d39b08f7a97fac42c062425a988583dca8",
+          "sha1": "5782bbf1f13f6967157d1f7c9c3a4c7965a02d2f",
+          "md5": "559de7fcb7a7b8d63c29d7c8bef4da12"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "central-common-flux-3.0.0-sources.jar",
+          "url": "central-common-flux-3.0.0-sources.jar",
+          "size": 65769,
+          "sha512": "f28bb8e0b9c7b59a172a0775f337ae64dcdcaf8d1ff9471420a31384e8604ac626bcd5d0ac8dfa60e88dfc904ecd92acd8ccdac16f00c5490ac4f57e1addf610",
+          "sha256": "8b8850388a457e6ad68cb3afff7b0916ea0d0760e657d71f17b1f924d235e168",
+          "sha1": "7e835ae7e24ef46d7a88224a71f1f5a9e918e8cb",
+          "md5": "3d9c796407a68b2d0d608a1825b68f56"
+        }
+      ]
+    }
+  ]
+}
