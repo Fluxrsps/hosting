@@ -65,28 +65,28 @@
   ],
   "artifacts": [
     {
-      "hash": "6c37f69aaddb7f10ca731e87e072fb5e921fca0e43f7a401e05d58e22b710377",
+      "hash": "e7dff8db586fb2a2fa5323658f4be16e29031b458415ee6a1476ff844b27b3fb",
       "name": "runelite-client.jar",
       "path": "https://github.com/Fluxrsps/hosting/raw/main/client/live/repo/runelite-client.jar",
-      "size": 5261856
+      "size": 5304334
     },
     {
-      "hash": "39adbba9219dd1d9b6cfff8dd6535e501608ddd9f5c59a530fe65d65e078ecff",
+      "hash": "a6847a54c9a60d827ad5680617aa2a9936397adcefe2ce3a548550ce4666e95e",
       "name": "runelite-api.jar",
       "path": "https://github.com/Fluxrsps/hosting/raw/main/client/live/repo/runelite-api.jar",
-      "size": 5179631
+      "size": 5329461
     },
     {
-      "hash": "10aa68b507398f3547238f79965c0b87dc619651aaa919edd6858924c58a5881",
+      "hash": "e8d6c8b113edfb496da7d6070dffd12404e986017d13b1976c317cd035394b90",
       "name": "osrs-client.jar",
       "path": "https://github.com/Fluxrsps/hosting/raw/main/client/live/repo/osrs-client.jar",
-      "size": 5754021
+      "size": 6006494
     },
     {
-      "hash": "1b2751256aaa1ed96a80e6f89dac8a19bead1730335c95ecba9c8486760afa18",
-      "name": "http-api-1.2.22.jar",
-      "path": "https://repo.runelite.net/net/runelite/arn/http-api/1.2.22/http-api-1.2.22.jar",
-      "size": 43053
+      "hash": "afefa5239fb6e437f93cc41c54f3030cf7b1663397a6b34f1bbe3065114c9b66",
+      "name": "http-api-1.2.23.jar",
+      "path": "https://repo.runelite.net/net/runelite/arn/http-api/1.2.23/http-api-1.2.23.jar",
+      "size": 40904
     },
     {
       "hash": "6409723fd13496386dfb1335a9794dc0919db6132522f2b7486d6734fc5df6e5",
@@ -102,8 +102,8 @@
     },
     {
       "hash": "33628f0796b13f83d56da6611d682c3799202af6344b75a7914a9fd2333e9b60",
-      "name": "jshell-1.12.28.jar",
-      "path": "https://repo.runelite.net/net/runelite/jshell/1.12.28/jshell-1.12.28.jar",
+      "name": "jshell-1.12.37-SNAPSHOT.jar",
+      "path": "https://repo.runelite.net/net/runelite/jshell/1.12.37-SNAPSHOT/jshell-1.12.37-SNAPSHOT.jar",
       "size": 23070
     },
     {
@@ -373,13 +373,13 @@
   ],
   "updates": [],
   "dependencyHashes": {
-    "runelite-client.jar": "6c37f69aaddb7f10ca731e87e072fb5e921fca0e43f7a401e05d58e22b710377",
-    "runelite-api.jar": "39adbba9219dd1d9b6cfff8dd6535e501608ddd9f5c59a530fe65d65e078ecff",
-    "osrs-client.jar": "10aa68b507398f3547238f79965c0b87dc619651aaa919edd6858924c58a5881",
-    "http-api-1.2.22.jar": "1b2751256aaa1ed96a80e6f89dac8a19bead1730335c95ecba9c8486760afa18",
+    "runelite-client.jar": "e7dff8db586fb2a2fa5323658f4be16e29031b458415ee6a1476ff844b27b3fb",
+    "runelite-api.jar": "a6847a54c9a60d827ad5680617aa2a9936397adcefe2ce3a548550ce4666e95e",
+    "osrs-client.jar": "e8d6c8b113edfb496da7d6070dffd12404e986017d13b1976c317cd035394b90",
+    "http-api-1.2.23.jar": "afefa5239fb6e437f93cc41c54f3030cf7b1663397a6b34f1bbe3065114c9b66",
     "discord-1.4.jar": "6409723fd13496386dfb1335a9794dc0919db6132522f2b7486d6734fc5df6e5",
     "rlawt-1.8.jar": "24f9b6d77d8de814a8dacddf9c4e2227da70459375ca72cc961ae81d33eff75a",
-    "jshell-1.12.28.jar": "33628f0796b13f83d56da6611d682c3799202af6344b75a7914a9fd2333e9b60",
+    "jshell-1.12.37-SNAPSHOT.jar": "33628f0796b13f83d56da6611d682c3799202af6344b75a7914a9fd2333e9b60",
     "logback-classic-1.2.11.jar": "4d8e899621a3006c2f66e19feab002b11e6cfc5cb1854fc41f01532c00deb2aa",
     "slf4j-api-1.7.36.jar": "d3ef575e3e4979678dc01bf1dcce51021493b4d11fb7f1be8ad982877c16a1c0",
     "jopt-simple-5.0.1.jar": "9f0c8d50fa4b79b6ff1502dbec8502179d6b9497cacbe17a13074001aed537ec",
