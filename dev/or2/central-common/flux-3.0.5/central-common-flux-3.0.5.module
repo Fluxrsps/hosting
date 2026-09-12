@@ -52,11 +52,11 @@
         {
           "name": "central-common-flux-3.0.5.jar",
           "url": "central-common-flux-3.0.5.jar",
-          "size": 330576,
-          "sha512": "81f38d7d129d5f94b5189ecc6f5e17124026c1571fb29b0dd1a896bfdb57e705dccb38cd8efcef3b2a7ea9b077c14f4a057d662755476c52156ca0ce363c6067",
-          "sha256": "840bbd2783d93e1d758c396e8dbc0ef93740e072509a6d16bcd114d7c4ac9dc6",
-          "sha1": "e704fbd750f51753484bf1ae4cc4b3f5f6b6acbb",
-          "md5": "6aaab6bf7f515152906e1a5776bbc651"
+          "size": 339293,
+          "sha512": "c9580c1c7fa1ae197071c6c32d1c3714e565cf67a9b4514beb9e47db9c7d860eb3241aa87316fb54b74cde442735ba94fad915d6347f93767542ba23aa94e196",
+          "sha256": "aa78edebfe6aeee29ac4b70ce17ce1d123f3a6cfef40da167a9e93bbba9fdf31",
+          "sha1": "d58ca1bed910c4855f5919b313399807fcc1473b",
+          "md5": "43cbe1943f7b04d759bde1b09778b541"
         }
       ]
     },
@@ -133,11 +133,11 @@
         {
           "name": "central-common-flux-3.0.5.jar",
           "url": "central-common-flux-3.0.5.jar",
-          "size": 330576,
-          "sha512": "81f38d7d129d5f94b5189ecc6f5e17124026c1571fb29b0dd1a896bfdb57e705dccb38cd8efcef3b2a7ea9b077c14f4a057d662755476c52156ca0ce363c6067",
-          "sha256": "840bbd2783d93e1d758c396e8dbc0ef93740e072509a6d16bcd114d7c4ac9dc6",
-          "sha1": "e704fbd750f51753484bf1ae4cc4b3f5f6b6acbb",
-          "md5": "6aaab6bf7f515152906e1a5776bbc651"
+          "size": 339293,
+          "sha512": "c9580c1c7fa1ae197071c6c32d1c3714e565cf67a9b4514beb9e47db9c7d860eb3241aa87316fb54b74cde442735ba94fad915d6347f93767542ba23aa94e196",
+          "sha256": "aa78edebfe6aeee29ac4b70ce17ce1d123f3a6cfef40da167a9e93bbba9fdf31",
+          "sha1": "d58ca1bed910c4855f5919b313399807fcc1473b",
+          "md5": "43cbe1943f7b04d759bde1b09778b541"
         }
       ]
     },
@@ -153,11 +153,11 @@
         {
           "name": "central-common-flux-3.0.5-sources.jar",
           "url": "central-common-flux-3.0.5-sources.jar",
-          "size": 92157,
-          "sha512": "41f1aa7c4ab29dfc4c7c8bf4d0dabb7b3f5c8deaa34d7dc057981b8b953a6358777bdd79c42c2676f3aaf0dec045c920420b65088f9499cd177f0abc14570b7f",
-          "sha256": "27aac9bccc01f538adfca4442a8b9158b8d0371b1472be3723211a1d9b3f80cd",
-          "sha1": "f33a1dcde0f7d99bfce208c8914119556dcb7d80",
-          "md5": "5c160d611e6bfafd18a9279b8418a9e2"
+          "size": 95207,
+          "sha512": "ec9bc3ee6e50f81875cf0df8fe797aeb64bbf11144d7f04d01502e203dd712718cf648f809a4d3b8f5fda9318e8523daba1bbaf0f0c75e33b1d691bebeb002d6",
+          "sha256": "56aec597d794c32424584eea1b7e552103f95d6a9bce500d2be923c2372f436d",
+          "sha1": "08fefa482b24d933995c86d03965d8260dc8f80d",
+          "md5": "6e1790ca85200b2de19d36dcdbac2212"
         }
       ]
     }

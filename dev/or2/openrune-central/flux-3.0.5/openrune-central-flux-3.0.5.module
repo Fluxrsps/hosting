@@ -39,10 +39,10 @@
           "name": "openrune-central-flux-3.0.5.jar",
           "url": "openrune-central-flux-3.0.5.jar",
           "size": 381075,
-          "sha512": "da16512599575287b1d16236bbc19e96a99549b61a32dca76c16091d9a0fd631bcc3214eb555b6a9cb32724855de5d86edface3d8f07cb360f8430291120b0e6",
-          "sha256": "afa9e60dc95d2267751228878b518e88641a2b81328573a01378e4e3224f3497",
-          "sha1": "e7f7154a98c465a3cb20944b0b2236c71582eebe",
-          "md5": "ada81d681a173afcc719695186834f89"
+          "sha512": "e0b519554233c8ba67484dc0bc21e6134b600fd9ba9c9aaea5cd3221e7d7788f6113f11a27d9f105120dfab50f901975d4bc08fa554038934867102b1cc53417",
+          "sha256": "c02a29679b74358bb4020b1288dd9e1e872c827ffdae76153c9ed300207a2da2",
+          "sha1": "49ea7045249f9965fa94b7b29a3b5c8350117a11",
+          "md5": "8b2b71b79940c0f181c9a660b8724127"
         }
       ]
     },
@@ -222,10 +222,10 @@
           "name": "openrune-central-flux-3.0.5.jar",
           "url": "openrune-central-flux-3.0.5.jar",
           "size": 381075,
-          "sha512": "da16512599575287b1d16236bbc19e96a99549b61a32dca76c16091d9a0fd631bcc3214eb555b6a9cb32724855de5d86edface3d8f07cb360f8430291120b0e6",
-          "sha256": "afa9e60dc95d2267751228878b518e88641a2b81328573a01378e4e3224f3497",
-          "sha1": "e7f7154a98c465a3cb20944b0b2236c71582eebe",
-          "md5": "ada81d681a173afcc719695186834f89"
+          "sha512": "e0b519554233c8ba67484dc0bc21e6134b600fd9ba9c9aaea5cd3221e7d7788f6113f11a27d9f105120dfab50f901975d4bc08fa554038934867102b1cc53417",
+          "sha256": "c02a29679b74358bb4020b1288dd9e1e872c827ffdae76153c9ed300207a2da2",
+          "sha1": "49ea7045249f9965fa94b7b29a3b5c8350117a11",
+          "md5": "8b2b71b79940c0f181c9a660b8724127"
         }
       ]
     },
@@ -241,11 +241,11 @@
         {
           "name": "openrune-central-flux-3.0.5-sources.jar",
           "url": "openrune-central-flux-3.0.5-sources.jar",
-          "size": 72835,
-          "sha512": "fa4f4b45ff97b6cc21b441db594a182a5ffae51bdd53158e310f5d70b984dbc06175ce08e4cf121cc5ab31a774098c61633e104b0e07c3dadd1a6865810f6662",
-          "sha256": "cf8c39212cc4c299eb9f8cd1fda7a29fee28f30f9cb1ac8c504406f7513df6b9",
-          "sha1": "8d833c9b31c8a1ee87d48c8468b02fe724981696",
-          "md5": "f3578d8bd754ce84fef8eda7f86e4e98"
+          "size": 72796,
+          "sha512": "9f2229bb5e6288f0cdee6a36b01e6b41b763da7ae723859442068505dbc705723dfbfb3897bb5903badc1f518dd500f500fcfa98dde121078722d93af19e22ce",
+          "sha256": "8af145d58b0404ad01d867cc9cfff25c475797ddf3ede208844d13c54bccb6b5",
+          "sha1": "c74b0b61e279dc4003399e64f7977a54cfd5458a",
+          "md5": "a1326d8d0af544a5d22d5d061a336664"
         }
       ]
     }
