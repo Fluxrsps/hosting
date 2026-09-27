@@ -1,0 +1,253 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "openrune-central",
+    "version": "flux-3.0.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrune-central-flux-3.0.7.jar",
+          "url": "openrune-central-flux-3.0.7.jar",
+          "size": 420975,
+          "sha512": "78b29195636388ec4a29c2212e01c94f21da67b463aff0543f772c2485d59e5d9feb5e959c65e0d78ccca35b93ebedf513e51ea8799e4bb01baa292fb732f988",
+          "sha256": "b11e5f9bdbae203e55e249932d6a8e203aa0633cf0b0a0e0c9a2f51d560a4008",
+          "sha1": "d2bba3cc4f45a1ccd12df20ce7178b36d57b3ad8",
+          "md5": "a20979d96e438ee1016eaa5d7e7a3ebb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.or2",
+          "module": "central-common",
+          "version": {
+            "requires": "flux-3.0.7"
+          }
+        },
+        {
+          "group": "dev.or2",
+          "module": "central-worldlink",
+          "version": {
+            "requires": "flux-3.0.7"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-bom",
+          "version": {
+            "requires": "3.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-netty"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-content-negotiation"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-status-pages"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-forwarded-header"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-config-yaml"
+        },
+        {
+          "group": "com.zaxxer",
+          "module": "HikariCP",
+          "version": {
+            "requires": "6.2.1"
+          }
+        },
+        {
+          "group": "org.postgresql",
+          "module": "postgresql",
+          "version": {
+            "requires": "42.7.7"
+          }
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-core",
+          "version": {
+            "requires": "11.3.1"
+          }
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-database-postgresql",
+          "version": {
+            "requires": "11.3.1"
+          }
+        },
+        {
+          "group": "com.sksamuel.hoplite",
+          "module": "hoplite-core",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.sksamuel.hoplite",
+          "module": "hoplite-yaml",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-ktor",
+          "version": {
+            "requires": "4.0.2"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-logger-slf4j",
+          "version": {
+            "requires": "4.0.2"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-handler",
+          "version": {
+            "requires": "4.1.118.Final"
+          }
+        },
+        {
+          "group": "io.zonky.test",
+          "module": "embedded-postgres",
+          "version": {
+            "requires": "2.2.2"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.5.16"
+          }
+        },
+        {
+          "group": "org.reflections",
+          "module": "reflections",
+          "version": {
+            "requires": "0.10.2"
+          }
+        },
+        {
+          "group": "net.dv8tion",
+          "module": "JDA",
+          "version": {
+            "requires": "5.5.1"
+          }
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrune-central-flux-3.0.7.jar",
+          "url": "openrune-central-flux-3.0.7.jar",
+          "size": 420975,
+          "sha512": "78b29195636388ec4a29c2212e01c94f21da67b463aff0543f772c2485d59e5d9feb5e959c65e0d78ccca35b93ebedf513e51ea8799e4bb01baa292fb732f988",
+          "sha256": "b11e5f9bdbae203e55e249932d6a8e203aa0633cf0b0a0e0c9a2f51d560a4008",
+          "sha1": "d2bba3cc4f45a1ccd12df20ce7178b36d57b3ad8",
+          "md5": "a20979d96e438ee1016eaa5d7e7a3ebb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openrune-central-flux-3.0.7-sources.jar",
+          "url": "openrune-central-flux-3.0.7-sources.jar",
+          "size": 79659,
+          "sha512": "3e154f726d968d2cfb83d4f9c46f22504233dd4f08f50176b609bcf512c3cfd8f12910be3605404c797e73dc5623b135939bdfc1d515f7850fb17f7b2789e703",
+          "sha256": "a07c2b277d53ebcf5e6be806bf543f568a982c05d7019b3fcda8e049c1ee074b",
+          "sha1": "c41eb74d19262d253dda7d5a4cbab7d5bf813b50",
+          "md5": "2d6c84af994a9fcb8ea0433e64e4c10a"
+        }
+      ]
+    }
+  ]
+}

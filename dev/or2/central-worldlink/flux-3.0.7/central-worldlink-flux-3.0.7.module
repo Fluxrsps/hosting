@@ -1,0 +1,143 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.or2",
+    "module": "central-worldlink",
+    "version": "flux-3.0.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.or2",
+          "module": "central-common",
+          "version": {
+            "requires": "flux-3.0.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "central-worldlink-flux-3.0.7.jar",
+          "url": "central-worldlink-flux-3.0.7.jar",
+          "size": 229261,
+          "sha512": "1ae9ecfea3246bfc1b444b7d02bb3d8944f27bb96af160c22f9cd3abbd49491af99bf349a79e9c87f30111c07bc2471b4aa4addb4cd9462e1b6d9a5ec28d8d47",
+          "sha256": "c17cdcd0a0e2ab2addce26ee7b2f07cc49fbe4566ba3703cc30e96f73e161b4c",
+          "sha1": "b21f515afdf256fcda8d1e53465fe331755e5c45",
+          "md5": "349699defceb126c9073553d60bd1057"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.118.Final"
+          }
+        },
+        {
+          "group": "org.reflections",
+          "module": "reflections",
+          "version": {
+            "requires": "0.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect"
+        },
+        {
+          "group": "dev.or2",
+          "module": "central-common",
+          "version": {
+            "requires": "flux-3.0.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "central-worldlink-flux-3.0.7.jar",
+          "url": "central-worldlink-flux-3.0.7.jar",
+          "size": 229261,
+          "sha512": "1ae9ecfea3246bfc1b444b7d02bb3d8944f27bb96af160c22f9cd3abbd49491af99bf349a79e9c87f30111c07bc2471b4aa4addb4cd9462e1b6d9a5ec28d8d47",
+          "sha256": "c17cdcd0a0e2ab2addce26ee7b2f07cc49fbe4566ba3703cc30e96f73e161b4c",
+          "sha1": "b21f515afdf256fcda8d1e53465fe331755e5c45",
+          "md5": "349699defceb126c9073553d60bd1057"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "central-worldlink-flux-3.0.7-sources.jar",
+          "url": "central-worldlink-flux-3.0.7-sources.jar",
+          "size": 38176,
+          "sha512": "dff142adb2951b52d40f91a04f4ad9087fb610dbf137a46008456a16503e463ccbbbf749e00419410e44703a56d08cb8bf0958704fae771c77d3e825cfc90ab9",
+          "sha256": "bac87c2fe9b4661b53d1758260f9caf17e0138ab2ea0912b0403378675746ac7",
+          "sha1": "6f61f05b85c4df50c8c2bd6d075109290cca9d63",
+          "md5": "05fa7dabaa20c0c246e40b0f09abb429"
+        }
+      ]
+    }
+  ]
+}
