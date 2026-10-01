@@ -65,22 +65,22 @@
   ],
   "artifacts": [
     {
-      "hash": "e7dff8db586fb2a2fa5323658f4be16e29031b458415ee6a1476ff844b27b3fb",
+      "hash": "eb8d506bba95402c06d8835583b5fa7417b966ba24c87b895f7fccb002438c07",
       "name": "runelite-client.jar",
       "path": "https://github.com/Fluxrsps/hosting/raw/main/client/live/repo/runelite-client.jar",
-      "size": 5304334
+      "size": 5424513
     },
     {
-      "hash": "9c5c9aca5447d4e5f6474cf39e7ee2af0040f71ad0d3e90b4f4883df17ec0eaa",
+      "hash": "d56fa7d30de836543c9eae6c6121eca22a81f154efd9974169f82b71ab297946",
       "name": "runelite-api.jar",
       "path": "https://github.com/Fluxrsps/hosting/raw/main/client/live/repo/runelite-api.jar",
-      "size": 5330577
+      "size": 5437403
     },
     {
-      "hash": "11ddcff75b87bbef58934d819ba50b1373368b7f6e466e47dafb1d19c2e4d65b",
+      "hash": "230ed99ffcd937d5d802d87854bc691ac34cb3ee4218309abe9ae36601162959",
       "name": "osrs-client.jar",
       "path": "https://github.com/Fluxrsps/hosting/raw/main/client/live/repo/osrs-client.jar",
-      "size": 6061394
+      "size": 4763367
     },
     {
       "hash": "afefa5239fb6e437f93cc41c54f3030cf7b1663397a6b34f1bbe3065114c9b66",
@@ -373,9 +373,9 @@
   ],
   "updates": [],
   "dependencyHashes": {
-    "runelite-client.jar": "e7dff8db586fb2a2fa5323658f4be16e29031b458415ee6a1476ff844b27b3fb",
-    "runelite-api.jar": "9c5c9aca5447d4e5f6474cf39e7ee2af0040f71ad0d3e90b4f4883df17ec0eaa",
-    "osrs-client.jar": "11ddcff75b87bbef58934d819ba50b1373368b7f6e466e47dafb1d19c2e4d65b",
+    "runelite-client.jar": "eb8d506bba95402c06d8835583b5fa7417b966ba24c87b895f7fccb002438c07",
+    "runelite-api.jar": "d56fa7d30de836543c9eae6c6121eca22a81f154efd9974169f82b71ab297946",
+    "osrs-client.jar": "230ed99ffcd937d5d802d87854bc691ac34cb3ee4218309abe9ae36601162959",
     "http-api-1.2.23.jar": "afefa5239fb6e437f93cc41c54f3030cf7b1663397a6b34f1bbe3065114c9b66",
     "discord-1.4.jar": "6409723fd13496386dfb1335a9794dc0919db6132522f2b7486d6734fc5df6e5",
     "rlawt-1.8.jar": "24f9b6d77d8de814a8dacddf9c4e2227da70459375ca72cc961ae81d33eff75a",
